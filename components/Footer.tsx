@@ -41,6 +41,17 @@ export const Footer: React.FC<{
       ) : null}
 
       <div className={styles.social}>
+      {config.linkedin && (
+        <a
+          className={styles.linkedin}
+          href={`https://www.linkedin.com/in/${config.linkedin}`}
+          title={`LinkedIn ${config.author}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FaLinkedin />
+        </a>
+      )}
 //        {config.twitter && (
 //          <a
 //            className={styles.twitter}
@@ -64,18 +75,18 @@ export const Footer: React.FC<{
 //            <FaGithub />
 //          </a>
 //        )}
-
-        {config.linkedin && (
-          <a
-            className={styles.linkedin}
-            href={`https://www.linkedin.com/in/${config.linkedin}`}
-            title={`LinkedIn ${config.author}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaLinkedin />
-          </a>
-        )}
+//
+//        {config.linkedin && (
+//          <a
+//            className={styles.linkedin}
+//            href={`https://www.linkedin.com/in/${config.linkedin}`}
+//            title={`LinkedIn ${config.author}`}
+//            target='_blank'
+//            rel='noopener noreferrer'
+//          >
+//            <FaLinkedin />
+//          </a>
+//        )}
       </div>
     </footer>
   )
