@@ -18,6 +18,11 @@ It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](ht
 
 The site is then deployed to [Vercel](http://vercel.com).
 
+[If you update NPM make sure to remove the twitter functionality or try find a work around still in development at time of writing]
+
+https://github.com/W-Qing/nextjs-notion-starter-kit/commit/79a69c0c6b28544b7f5adfd76c14d856effb7f0a
+
+
 ## Features
 
 - Setup only takes a few minutes ([single config file](./site.config.js)) 💪
