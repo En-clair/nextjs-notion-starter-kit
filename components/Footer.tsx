@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Open Source unless implied elsewhere{config.author}</div>
+      <div className={styles.copyright}>Open Source unless implied elsewhere - {config.author}</div>
 
       {hasMounted ? (
         <div className={styles.settings}>
