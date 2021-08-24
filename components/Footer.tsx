@@ -40,7 +40,6 @@ export const Footer: React.FC<{
         </div>
       ) : null}
 
-      </div>
     </footer>
   )
 }
