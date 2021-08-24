@@ -26,7 +26,7 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2021, MIT Licence unless otherwise stated {config.author}</div>
+      <div className={styles.copyright}>Open Source unless implied elsewhere{config.author}</div>
 
       {hasMounted ? (
         <div className={styles.settings}>
@@ -41,17 +41,6 @@ export const Footer: React.FC<{
       ) : null}
 
       <div className={styles.social}>
-      {config.linkedin && (
-        <a
-          className={styles.linkedin}
-          href={`https://www.linkedin.com/in/${config.linkedin}`}
-          title={`LinkedIn ${config.author}`}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <FaLinkedin />
-        </a>
-      )}
 //        {config.twitter && (
 //          <a
 //            className={styles.twitter}
@@ -63,7 +52,7 @@ export const Footer: React.FC<{
 //            <FaTwitter />
 //          </a>
 //        )}
-//
+
 //        {config.github && (
 //          <a
 //            className={styles.github}
@@ -75,18 +64,18 @@ export const Footer: React.FC<{
 //            <FaGithub />
 //          </a>
 //        )}
-//
-//        {config.linkedin && (
-//          <a
-//            className={styles.linkedin}
-//            href={`https://www.linkedin.com/in/${config.linkedin}`}
-//            title={`LinkedIn ${config.author}`}
-//            target='_blank'
-//            rel='noopener noreferrer'
-//          >
-//            <FaLinkedin />
-//          </a>
-//        )}
+
+        {config.linkedin && (
+          <a
+            className={styles.linkedin}
+            href={`https://www.linkedin.com/in/${config.linkedin}`}
+            title={`LinkedIn ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaLinkedin />
+          </a>
+        )}
       </div>
     </footer>
   )
