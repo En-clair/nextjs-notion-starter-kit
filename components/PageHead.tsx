@@ -21,7 +21,13 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
         </>
       )}
 
-      <meta name='theme-color' content='#EB625A' />
+      <meta name="theme-color"
+        content="#ecd96f"
+        media="(prefers-color-scheme: light)">
+
+      <meta name="theme-color"
+        content="#0b3e05"
+        media="(prefers-color-scheme: dark)">
       <meta property='og:type' content='website' />
     </Head>
   )
