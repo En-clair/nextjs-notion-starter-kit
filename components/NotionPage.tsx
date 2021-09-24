@@ -159,7 +159,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }
 
   return (
-    <div>
+    <div />
     {/* <TwitterContextProvider
       value={{
         tweetAstMap: (recordMap as any).tweetAstMap || {},
@@ -209,7 +209,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         )}
 
         <title>{title}</title>
-        
+
         <meta name="theme-color" content="#ecd96f" media="(prefers-color-scheme: light)">
         <meta name="theme-color" content="#0b3e05" media="(prefers-color-scheme: dark)">
 
