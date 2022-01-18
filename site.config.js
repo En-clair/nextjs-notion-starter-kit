@@ -20,7 +20,7 @@ module.exports = {
   twitter: 'ghcs_labs',
   github: 'ghcs_labs',
   facebook: 'greenhatcyber',
-  linkedin: 'gstrategy',
+  linkedin: 'gary-leigh-860b72229',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
